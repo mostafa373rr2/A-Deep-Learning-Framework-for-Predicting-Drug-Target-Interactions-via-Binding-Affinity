@@ -18,7 +18,7 @@ The framework leverages a multi-modal deep learning architecture composed of:
         │                                    │
         ▼                                    ▼
 ┌──────────────────┐               ┌──────────────────┐
-│   Transformer    │               │      CNN       │
+│   Transformer    │               │      CNN         │
 │     Encoder      │               │     Encoder      │
 └────────┬─────────┘               └────────┬─────────┘
          │                                  │
