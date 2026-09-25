@@ -1,0 +1,53 @@
+# ============================================================================
+# Requirements for E:\DTI_env - Drug-Target Interaction Project
+# Complete package list with recommended versions
+# ============================================================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Numerical Computing
+numpy>=1.21.0,<2.0.0
+scipy>=1.7.0
+
+# Data Manipulation & Analysis
+pandas>=1.3.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Hyperparameter Optimization
+optuna>=3.0.0
+
+# Progress Bars
+tqdm>=4.62.0
+
+# Image Export for Plotly (for optuna visualizations)
+kaleido>=0.2.1
+
+# Optional but Recommended
+# ============================================================================
+
+# Chemistry/Molecular Tools (OPTIONAL - for advanced features)
+# rdkit>=2022.3.1  # Uncomment if you want advanced molecular features
+# Note: RDKit installation can be tricky, see installation guide below
+
+# Jupyter Support (OPTIONAL - for notebooks)
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
+# ipywidgets>=7.6.0
+
+# Logging & Monitoring (OPTIONAL)
+# tensorboard>=2.8.0
+# wandb>=0.12.0
+
+# Additional Utilities (OPTIONAL)
+# joblib>=1.0.0  # For parallel processing
+# pillow>=8.0.0  # For image handling

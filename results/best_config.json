@@ -1,0 +1,29 @@
+{
+    "drug_input_dim": 1039,
+    "drug_d_model": 128,
+    "drug_num_layers": 6,
+    "drug_num_heads": 16,
+    "drug_d_ff": 512,
+    "drug_hidden_dim": 256,
+    "target_vocab_size": 26,
+    "target_embedding_dim": 128,
+    "target_num_filters": [
+        32,
+        64,
+        96
+    ],
+    "target_kernel_sizes": [
+        4,
+        8,
+        12
+    ],
+    "target_hidden_dim": 256,
+    "decoder_hidden_dims": [
+        1024,
+        1024,
+        256
+    ],
+    "dropout": 0.12378915446684813,
+    "learning_rate": 0.0001248391813604504,
+    "batch_size": 64
+}
