@@ -8,7 +8,7 @@ A comprehensive PyTorch deep learning framework designed to predict **Drug-Targe
 
 The framework leverages a multi-modal deep learning architecture composed of:
 1. **Drug Feature Representation**: Transformer Encoder architecture processing SMILES representations with positional encoding and multi-head self-attention.
-2. **Protein Sequence Representation**: Multi-scale 1D Convolutional Neural Network (CNN) with adaptive pooling over target protein amino acid sequences.
+2. **Protein Sequence Representation**: Multi-scale  Convolutional Neural Network (CNN) with adaptive pooling over target protein amino acid sequences.
 3. **Binding Affinity Decoder**: Multi-Layer Perceptron (MLP) decoder fusing latent drug-target feature representations to predict continuous binding affinity ($pK_d$).
 4. **Data Normalization & Stability**: Automated conversion of raw binding affinity $Y$ ($\text{nM}$) into $-\log_{10}(Y \times 10^{-9})$ ($pK_d$) to resolve non-linear distributions and optimize $R^2$ regression performance.
 5. **Hyperparameter Tuning**: Automated Bayesian optimization via **Optuna** for optimal architectural dimensions, learning rates, and regularization.
@@ -18,7 +18,7 @@ The framework leverages a multi-modal deep learning architecture composed of:
         │                                    │
         ▼                                    ▼
 ┌──────────────────┐               ┌──────────────────┐
-│   Transformer    │               │     1D CNN       │
+│   Transformer    │               │      CNN       │
 │     Encoder      │               │     Encoder      │
 └────────┬─────────┘               └────────┬─────────┘
          │                                  │
